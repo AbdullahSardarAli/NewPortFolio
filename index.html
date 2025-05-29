@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Frontend Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">MyPortfolio</div>
+    <nav id="nav-links" class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text" data-aos="fade-right" data-aos-duration="1500">
+      <h1>
+        <span class="static-text">I am </span>
+        <span id="typing" class="highlight"></span>
+      </h1>
+      <p>
+        I create clean, interactive, and responsive web interfaces using the latest frontend technologies like React, Tailwind CSS, and JavaScript. My focus is on delivering performance-driven and user-centric experiences.
+      </p>
+    </div>
+    <div class="hero-img" data-aos="fade-left" data-aos-duration="1500">
+      <img src="imageFolder/Abd Ullah.jpg" alt="Frontend Developer" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section" data-aos="fade-up" data-aos-duration="1500">
+    <div class="about-left" >
+      <img src="imageFolder/WhatsApp Image 2025-05-28 at 23.03.53_b4350925.jpg" alt="My Photo" />
+    </div>
+    <div class="about-right">
+      <h2>About</h2>
+      <p>
+        I am a passionate frontend developer dedicated to creating modern, user-friendly websites and applications. 
+        With strong skills in HTML, CSS, JavaScript, and frameworks like React, I focus on responsive design and seamless user experiences.
+        I continuously learn new technologies to keep my skills sharp and to deliver the best solutions for clients and projects.
+      </p>
+    </div>
+  </section>
+
+
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section" data-aos="fade-up" data-aos-duration="1500">
+  <h2>Skills</h2>
+  <div class="skills-container">
+    <div class="skill">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/html5.svg" alt="HTML5" />
+      <div class="skill-name">HTML</div>
+      <div class="skill-bar"><div class="skill-progress" style="width: 95%;"></div></div>
+    </div>
+    <div class="skill">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/css3.svg" alt="CSS3" />
+      <div class="skill-name">CSS</div>
+      <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+    </div>
+    <div class="skill">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/javascript.svg" alt="JavaScript" />
+      <div class="skill-name">JavaScript</div>
+      <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+    </div>
+    <div class="skill">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/react.svg" alt="React" />
+      <div class="skill-name">React</div>
+      <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+    </div>
+    <div class="skill">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/tailwindcss.svg" alt="Tailwind CSS" />
+      <div class="skill-name">Tailwind CSS</div>
+      <div class="skill-bar"><div class="skill-progress" style="width: 75%;"></div></div>
+    </div>
+    <div class="skill">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/figma.svg" alt="Figma" />
+      <div class="skill-name">Figma</div>
+      <div class="skill-bar"><div class="skill-progress" style="width: 70%;"></div></div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Projects Section -->
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section" data-aos="fade-up" data-aos-duration="1500">
+  <h2>Projects</h2>
+  <div class="project-grid">
+
+    <!-- Netflix Clone -->
+    <div class="project-card">
+      <h3>Netflix Clone</h3>
+      <p>A responsive Netflix UI clone using HTML, CSS, and JS.</p>
+      <a href="https://github.com/AbdullahSardarAli/clone-n" target="_blank">View on GitHub</a>
+    </div>
+
+    <!-- YouTube Clone -->
+    <div class="project-card">
+      <h3>YouTube Clone</h3>
+      <p>Homepage UI of YouTube with HTML, CSS, JavaScript.</p>
+      <a href="https://github.com/AbdullahSardarAli/Youtube-Clone" target="_blank">View on GitHub</a>
+    </div>
+
+    <!-- Amazon Clone -->
+    <div class="project-card">
+      <h3>Amazon Clone</h3>
+      <p>Amazon landing page clone with responsive design.</p>
+      <a href="https://github.com/AbdullahSardarAli/ecommers-website" target="_blank">View on GitHub</a>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section" data-aos="fade-up" data-aos-duration="1500">
+  <div class="contact-wrapper">
+    <!-- Social Links -->
+    <div class="contact-social">
+      <h2>Connect with Me</h2>
+      <ul>
+        <li><a href="https://github.com/AbdullahSardarAli" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/abd-ullah-5b4471355" target="_blank">LinkedIn</a></li>
+        <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+      </ul>
+    </div>
+
+    <!-- Email Form -->
+    <div class="contact-email">
+      <h2>Email Me</h2>
+      <form action="#" method="post">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+    <!-- <div class="footer-social">
+      <a href="https://github.com/" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+      <a href="https://twitter.com/" target="_blank">Twitter</a>
+    </div> -->
+  </div>
+</footer>
+
+  
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
